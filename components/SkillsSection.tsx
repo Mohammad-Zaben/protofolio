@@ -2,9 +2,9 @@
 "use client";
 import { AiOutlineApi } from 'react-icons/ai';
 
-import { FaJava, FaGitAlt, FaGithub,FaRegCompass,FaServer, } from "react-icons/fa";
+import { FaJava, FaGitAlt, FaGithub,FaRegCompass,} from "react-icons/fa";
 import { SiPostman,SiMongodb, SiNodedotjs, SiPython,SiDjango,SiFastapi,SiPostgresql ,SiMysql,SiFirebase,SiOpenapiinitiative,SiPandas,SiScikitlearn,SiNumpy,SiApacheairflow} from "react-icons/si";
-import { BiCodeAlt, BiLayer, BiTerminal, BiWrench } from "react-icons/bi";
+import { BiCodeAlt, BiLayer, BiTerminal  } from "react-icons/bi";
 
 const skills = [
   {

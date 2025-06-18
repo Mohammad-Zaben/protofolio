@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaBars, FaTimes } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FaUpwork } from "react-icons/fa6";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);

@@ -41,8 +41,6 @@ const projects = [
 
 export default function ProjectsSection() {
   const featuredProjects = projects.filter((project) => project.featured);
-  const otherProjects = projects.filter((project) => !project.featured);
-
   return (
     <section id="projects" className="py-16 sm:py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
