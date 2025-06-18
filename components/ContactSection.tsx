@@ -11,39 +11,40 @@ export default function ContactSection() {
     {
       icon: <FaMapMarkerAlt className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />,
       title: "Location",
-      value: "Alex, Egypt"
+      value: "Ramallah, Palestine"
     },
     {
       icon: <MdEmail className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />,
       title: "Email",
-      value: "essam.mohamed.dev@gmail.com"
+      value: "mohammad.nail.zaben@gmail.com"
+
     },
     {
       icon: <FaPhone className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />,
       title: "Phone",
-      value: "+20 1068446885"
+      value: "+970 597370661"
     }
   ];
 
   // Social links data
   const socialLinks = [
     {
-      href: "https://github.com/DevNexEssam",
+      href: "https://github.com/Mohammad-Zaben",
       icon: <FaGithub className="h-4 w-4 sm:h-5 sm:w-5" />,
       label: "GitHub"
     },
     {
-      href: "https://www.instagram.com/essam_iam/",
+      href: "https://www.instagram.com/mohammed_khansa/",
       icon: <FaInstagram className="h-4 w-4 sm:h-5 sm:w-5" />,
       label: "Instagram"
     },
     {
-      href: "https://www.linkedin.com/in/essam-mohamed-829b27342/",
+      href: "https://www.linkedin.com/in/mohammad-zaben-baa74a2a4/",
       icon: <FaLinkedin className="h-4 w-4 sm:h-5 sm:w-5" />,
       label: "LinkedIn"
     },
     {
-      href: "mailto:essam.mohamed.dev@gmail.com",
+      href: "mailto:mohammad.nail.zaben@gmail.com",
       icon: <MdEmail className="h-4 w-4 sm:h-5 sm:w-5" />,
       label: "Email"
     }
@@ -81,7 +82,7 @@ export default function ContactSection() {
     <section id="contact" className="py-12 sm:py-16 md:py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-2 text-text-primary">Get In Touch</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-2 text-text-primary">Contact us</h2>
           <div className="h-1 w-16 sm:w-20 bg-primary mx-auto"></div>
           <p className="mt-3 sm:mt-4 text-sm sm:text-base text-text-secondary max-w-2xl mx-auto">
             Have a project in mind or want to discuss potential opportunities?

@@ -3,38 +3,52 @@
 import { BsFileCode, BsHexagon, BsCodeSlash } from "react-icons/bs";
 import Link from "next/link";
 import Image from "next/image";
-import { SiTypescript, SiReact, SiTailwindcss, SiNextdotjs, SiMongodb } from "react-icons/si";
+import { SiPostgresql, SiNodedotjs, SiFirebase, SiFastapi, SiMongodb ,SiDjango,SiMysql} from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 
 export default function Hero() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
 
-  const techStack = [
-    {
-      icon: <SiTypescript className="h-5 w-5 sm:h-6 sm:w-6 text-[#3178C6]" />,
-      label: "TypeScript",
-    },
-    {
-      icon: <SiReact className="h-5 w-5 sm:h-6 sm:w-6 text-[#61DAFB]" />,
-      label: "React",
-    },
-    {
-      icon: <SiNextdotjs className="h-5 w-5 sm:h-6 sm:w-6 text-foreground" />,
-      label: "Next.js",
-    },
-    {
-      icon: <SiTailwindcss className="h-5 w-5 sm:h-6 sm:w-6 text-[#06B6D4]" />,
-      label: "Tailwind CSS",
-    },
-    {
-      icon: <SiMongodb className="h-5 w-5 sm:h-6 sm:w-6 text-green-600" />,
-      label: "Mongodb",
-    },
-  ];
+const techStack = [
+  {
+    icon: <SiDjango className="h-5 w-5 sm:h-6 sm:w-6 text-[#092E20]" />,
+    label: "Django",
+  },
+  {
+    icon: <SiFastapi className="h-5 w-5 sm:h-6 sm:w-6 text-[#009688]" />,
+    label: "FastAPI",
+  },
+  {
+    icon: <FaJava className="h-5 w-5 sm:h-6 sm:w-6 text-[#007396]" />,
+    label: "Java",
+  },
+  {
+    icon: <SiNodedotjs className="h-5 w-5 sm:h-6 sm:w-6 text-[#339933]" />,
+    label: "Node.js",
+  },
+  {
+    icon: <SiPostgresql className="h-5 w-5 sm:h-6 sm:w-6 text-[#336791]" />,
+    label: "PostgreSQL",
+  },
+  {
+    icon: <SiMysql className="h-5 w-5 sm:h-6 sm:w-6 text-[#4479A1]" />,
+    label: "MySQL",
+  },
+  {
+    icon: <SiFirebase className="h-5 w-5 sm:h-6 sm:w-6 text-[#FFCA28]" />,
+    label: "Firebase",
+  },
+  {
+    icon: <SiMongodb className="h-5 w-5 sm:h-6 sm:w-6 text-green-600" />,
+    label: "MongoDB",
+  },
+];
 
   return (
     <section className="relative min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 overflow-hidden bg-background pt-20 md:pt-0">
@@ -58,17 +72,16 @@ export default function Hero() {
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-text-primary">
               Hi, I'm{' '}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-foreground">
-                Essam Mohamed
+                Mohammad Zaben
               </span>
             </h1>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-2 text-text-secondary">
-              Full-Stack Developer
+              Backend Developer
             </h2>
           </div>
 
           <p className="text-base sm:text-lg max-w-xl text-text-secondary">
-            I craft responsive web applications where technologies meet creativity. Building exceptional digital experiences with modern full stack frameworks.
-          </p>
+I craft robust backend services where technologies meet innovation, building exceptional server-side applications with modern backend frameworks.          </p>
 
           <div className="flex flex-wrap gap-3 sm:gap-4 justify-center md:justify-start pt-2">
             <Link
@@ -114,8 +127,8 @@ export default function Hero() {
             
             <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:h-[350px] md:w-[350px] lg:h-[400px] lg:w-[400px] rounded-full overflow-hidden shadow-xl border-4 border-muted hover:border-primary/50 transition-all duration-300">
               <Image
-                src="/profile-2.png"
-                alt="Essam Mohamed"
+                src="/zaben.jpg"
+                alt="zaben"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-500"
                 priority

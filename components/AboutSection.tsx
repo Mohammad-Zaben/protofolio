@@ -3,9 +3,9 @@
 
 export default function About() {
   const personalInfo = [
-    { title: "Name", value: "Essam Mohamed", icon: "👨‍💻" },
-    { title: "Email", value: "essam.mohamed.dev@gmail.com", icon: "✉️" },
-    { title: "Location", value: "Alex, Egypt", icon: "📍" },
+    { title: "Name", value: "Mohammad Zaben", icon: "👨‍💻" },
+    { title: "Email", value: "mohammad.nail.zaben@gmail.com", icon: "✉️" },
+    { title: "Location", value: "Ramallah, Palsetine", icon: "📍" },
     { title: "Status", value: "Open to opportunities", icon: "🔍" },
   ];
 
@@ -47,8 +47,8 @@ export default function About() {
                 <div className="flex-1">
                   <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8 text-text-primary relative">
                     <span className="relative">
-                      Full-Stack Developer
-                      <span className="absolute -bottom-1 sm:-bottom-2 left-0 w-12 sm:w-16 h-0.5 sm:h-1 bg-primary rounded-full"></span>
+                    Backend Developer
+                      <span className="absolute -bottom-1 sm:-bottom-2 left-0 w-12 sm:w-38 h-0.5 sm:h-1 bg-primary rounded-full"></span>
                     </span>
                   </h3>
 
@@ -56,19 +56,29 @@ export default function About() {
                     <p>
                       I'm{" "}
                       <span className="text-primary font-semibold">
-                        Essam Mohamed
+                        Mohammad Zaben
                       </span>
-                      , a dedicated developer with 1+ year of experience
-                      creating exceptional digital solutions that blend
-                      aesthetics with functionality.
+                      , a dedicated developer with experience in back-end and the ability to build scalable and maintainable systems.
                     </p>
 
                     <p>
-                      My journey in development has equipped me with expertise
-                      across the entire stack, specializing in{" "}
-                      <span className="text-primary font-semibold">React</span>,{" "}
+                      My development journey has provided me with extensive experience in back-end software development,
+                       while implementing real-world projects that apply concepts such as:{" "}
+                      <span className="text-primary font-semibold">RESTful APIs</span>,{" "}
                       <span className="text-primary font-semibold">
-                        Next.js
+Authentication & JWT
+                      </span>,{" "}
+                      <span className="text-primary font-semibold">
+Role-based access
+                      </span>,{" "}
+                      <span className="text-primary font-semibold">
+ETL & Background Tasks
+                      </span>,{" "}
+                      <span className="text-primary font-semibold">
+Database Design & Optimization
+                      </span>,{" "}
+                      <span className="text-primary font-semibold">
+Cloud Services
                       </span>
                       , and modern backend technologies that deliver scalable,
                       high-performance applications.
@@ -132,8 +142,9 @@ export default function About() {
                         Current Focus
                       </h4>
                       <p className="text-xs sm:text-sm text-text-secondary">
-                        Expanding expertise in cloud architectures and advanced
-                        React patterns
+                        
+Current Focus: Deepening knowledge in cloud architectures, microservices,
+ and DevOps automation with tools like Kubernetes and Docker.
                       </p>
                     </div>
                   </div>

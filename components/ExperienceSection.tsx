@@ -4,61 +4,35 @@ import { FaBriefcase, FaGraduationCap, FaMapMarkerAlt, FaCalendarAlt } from "rea
 
 const workExperience = [
   {
-    title: "Front-End Developer",
-    company: "Freelance (Upwork & Nafathli)",
+    title: "Backend Developer",
+    company: "studens-hub",
     location: "Remote",
-    period: "2025 - Present",
+    period: "2025 ",
     description: [
-      "Developing modern web applications using Next.js and Tailwind CSS",
-      "Building interactive UI components with a strong focus on performance and user experience",
-      "Collaborating with clients to deliver customized front-end solutions",
-      "Optimizing web apps for SEO and accessibility",
+      ,
     ],
   },
   {
-    title: "Front-End Developer",
-    company: "Postly (Personal Project)",
-    location: "Remote",
-    period: "2025 - Present",
-    description: [
-      "Developed a social platform where users can create profiles and post prompts",
-      "Implemented authentication and authorization with NextAuth.js",
-      "Designed reusable UI components using Tailwind CSS",
-      "Integrated Mongoose for database management",
-    ],
-  },
-  {
-    title: "Front-End Developer",
-    company: "dashMinds (Dashboard Project)",
-    location: "Remote",
-    period: "2025 - Present",
-    description: [
-      "Designed and developed a dashboard interface for employee and department management",
-      "Used App Router in Next.js for optimized routing and better performance",
-      "Implemented role-based access control for administrators and users",
-    ],
-  },
-  {
-    title: "WordPress Developer",
-    company: "Tech Solutions Company",
-    location: "Alexandria, Egypt",
+    title: "Data Engineer (Trainee)",
+    company: "Asal Technology",
+    location: "Rawabi, Palestine",
     period: "2024",
     description: [
-      "Worked on building and customizing WordPress websites",
-      "Optimized website performance and enhanced UI/UX",
-      "Integrated plugins and third-party APIs for additional functionalities",
+      " Built backend features with Django and RESTful APIs, following SOLID and clean MVC/ORM architecture.",
+      "Improved database performance and integrated backend services with data pipelines using PostgreSQL",
+      "Executed data engineering tasks including ETL pipelines, data cleaning with Pandas, and data visualization",
+      "Used Git for version control in a collaborative environment, ensuring scalable and maintainable codebase",
     ],
-  },
+  }
 ];
 
 const education = [
   {
-    degree: "Bachelor's Degree in Computer Science (In Progress)",
-    institution: "Borg El Arab Technological University",
-    location: "Alexandria, Egypt",
-    period: "2022 - Present",
-    description:
-    "Currently studying computer science with a focus on front-end development, web technologies, and modern frameworks. Working on various academic projects related to web applications and AI."
+    degree: "Bachelor's Degree in Computer Science",
+    institution: "Birzeit University",
+    location: "Birzet, Ramallah, Palestine",
+    period: "2020 - 2025",
+    description:""
   },
 ];
 

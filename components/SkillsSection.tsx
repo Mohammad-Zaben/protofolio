@@ -1,73 +1,67 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
+import { AiOutlineApi } from 'react-icons/ai';
 
-import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaGithub } from "react-icons/fa";
-import { SiNextdotjs, SiTypescript, SiTailwindcss, SiStyledcomponents, SiMongodb, SiWebpack, SiEslint, SiPrettier, SiVercel } from "react-icons/si";
+import { FaJava, FaGitAlt, FaGithub,FaRegCompass,FaServer, } from "react-icons/fa";
+import { SiPostman,SiMongodb, SiNodedotjs, SiPython,SiDjango,SiFastapi,SiPostgresql ,SiMysql,SiFirebase,SiOpenapiinitiative,SiPandas,SiScikitlearn,SiNumpy,SiApacheairflow} from "react-icons/si";
 import { BiCodeAlt, BiLayer, BiTerminal, BiWrench } from "react-icons/bi";
 
 const skills = [
   {
-    icon: <FaReact className="h-8 w-8 mb-4 text-primary" />,
-    title: "Front-End Development",
-    description: "Building responsive and optimized web applications with modern frameworks.",
-    technologies: [
-      { name: "HTML5", icon: <FaHtml5 className="inline mr-1" /> },
-      { name: "CSS3", icon: <FaCss3Alt className="inline mr-1" /> },
-      { name: "JavaScript", icon: <FaJs className="inline mr-1" /> },
-      { name: "TypeScript", icon: <SiTypescript className="inline mr-1" /> },
-      { name: "Next.js", icon: <SiNextdotjs className="inline mr-1" /> },
-      { name: "React", icon: <FaReact className="inline mr-1" /> }
-    ],
-  },
-  {
     icon: <BiCodeAlt className="h-8 w-8 mb-4 text-primary" />,
-    title: "Styling & UI Frameworks",
-    description: "Crafting modern and maintainable UI components with efficient styling techniques.",
+    title: "Back-End Development",
+    description: "Building and optimizing server-side applications with modern back-end frameworks.",
     technologies: [
-      { name: "Tailwind CSS", icon: <SiTailwindcss className="inline mr-1" /> },
-      { name: "CSS Modules", icon: <FaCss3Alt className="inline mr-1" /> },
-      { name: "Styled Components", icon: <SiStyledcomponents className="inline mr-1" /> },
-      { name: "ShadCN", icon: <BiCodeAlt className="inline mr-1" /> }
+      { name: "Java", icon: <FaJava className="inline mr-1" /> },
+      { name: "Python", icon: <SiPython className="inline mr-1" /> },
+      { name: "Django", icon: <SiDjango className="inline mr-1" /> },
+      { name: "FastAPI", icon: <SiFastapi className="inline mr-1" /> },
+      { name: "Node.js", icon: <SiNodedotjs className="inline mr-1" /> },
+
     ],
   },
   {
     icon: <BiLayer className="h-8 w-8 mb-4 text-primary" />,
-    title: "State Management",
-    description: "Handling application state efficiently for scalable applications.",
+    title: "Database Management",
+    description: "Designing and managing databases for efficient data storage and retrieval.",
     technologies: [
-      { name: "Context API", icon: <FaReact className="inline mr-1" /> },
-      { name: "Zustand", icon: <BiLayer className="inline mr-1" /> }
+      { name: "PostgreSQL", icon: <SiPostgresql className="inline mr-1" /> },
+      { name: "MySQL", icon: <SiMysql className="inline mr-1" /> },
+      { name: "MongoDB", icon: <SiMongodb className="inline mr-1" /> },
+      { name: "Firebase", icon: <SiFirebase className="inline mr-1" /> },
     ],
   },
   {
     icon: <BiTerminal className="h-8 w-8 mb-4 text-primary" />,
-    title: "Back-End Integration",
-    description: "Connecting front-end applications to databases and back-end services.",
+    title: "API Development",
+    description: "Designing, documenting, and testing robust RESTful APIs using OpenAPI specifications, Swagger, Postman, and modern API development practices.",
     technologies: [
-      { name: "Mongoose", icon: <SiMongodb className="inline mr-1" /> },
-      { name: "REST APIs", icon: <BiTerminal className="inline mr-1" /> }
+        { name: "REST APIs", icon: <AiOutlineApi className="inline mr-1" /> },
+        { name: "Swagger", icon: <FaRegCompass className="inline mr-1" /> },
+        { name: "Postman", icon: <SiPostman className="inline mr-1" /> },
+        { name: "OpenAPI", icon: <SiOpenapiinitiative className="inline mr-1" /> },
     ],
   },
-  {
-    icon: <BiWrench className="h-8 w-8 mb-4 text-primary" />,
-    title: "Development Tools",
-    description: "Optimizing workflows with modern development and build tools.",
-    technologies: [
-      { name: "Webpack", icon: <SiWebpack className="inline mr-1" /> },
-      { name: "ESLint", icon: <SiEslint className="inline mr-1" /> },
-      { name: "Prettier", icon: <SiPrettier className="inline mr-1" /> }
-    ],
-  },
+
   {
     icon: <FaGitAlt className="h-8 w-8 mb-4 text-primary" />,
     title: "Version Control & Deployment",
-    description: "Managing code collaboration and deploying applications efficiently.",
+    description: "Managing version control and automating deployment processes.",
     technologies: [
       { name: "Git", icon: <FaGitAlt className="inline mr-1" /> },
       { name: "GitHub", icon: <FaGithub className="inline mr-1" /> },
-      { name: "Vercel", icon: <SiVercel className="inline mr-1" /> }
     ],
-  },
+  },{
+  icon: <SiPython className="h-8 w-8 mb-4 text-primary" />,
+  title: "Data Analysis & Processing",
+  description: "Extracting, transforming, and processing data for actionable insights.",
+  technologies: [
+    { name: "Pandas", icon: <SiPandas className="inline mr-1" /> },
+    { name: "ETL", icon: <SiApacheairflow className="inline mr-1" /> },
+    { name: "NumPy", icon: <SiNumpy className="inline mr-1" /> },
+    { name: "Scikit-learn", icon: <SiScikitlearn className="inline mr-1" /> },
+  ],
+}
 ];
 
 export default function SkillsSection() {
